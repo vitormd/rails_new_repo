@@ -1,0 +1,17 @@
+{
+  "name": "Init your Rails app",
+  "image": "mcr.microsoft.com/vscode/devcontainers/ruby",
+  "postCreateCommand": ".devcontainer/postCreateCommand.sh",
+  "postAttachCommand": ".devcontainer/postAttachCommand.sh",
+  "customizations": {
+    "codespaces": {
+      "repositories": {
+        "vitormd/*": {
+          "permissions": {
+            "repository_projects": "write"
+          }
+        }
+      }
+    }
+  }
+}
